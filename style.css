@@ -1,0 +1,296 @@
+/* #BA0113; Rojo 100%
+#F8F9FB; Fondo menu
+rgba(0, 0, 0, 0.6); Letras de menu */
+
+:root {
+    --color-red: #BA0113;
+    --color-menu: #F8F9FB;
+    --color-black: #212121;
+    /* Negro con 87%*/
+    --font-menu: rgba(0, 0, 0, 0.6);
+    --red-light: #B8121A;
+    /*Rojo con 87% */
+    --font-white: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-black);
+    color: var(--font-menu);
+    font-size: 2, 125rem;
+}
+
+.container-menu {
+    /* font-family: ; */
+    color: var(--font-white);
+    background-color: var(--color-black);
+    text-transform: uppercase;
+    height: 100%;
+    position: fixed;
+    z-index: 15;
+    overflow-x: hidden;
+    left: 0;
+}
+
+.container-menu a {
+    color: var(--font-white);
+}
+
+.logo-brand img {
+    width: 148px;
+    height: 100%;
+}
+
+.follow {
+    text-transform: none;
+    font-weight: lighter;
+
+}
+
+.nav-item .nav-link {
+    color: var(--font-white);
+}
+
+.nav-item .nav-link i {
+    font-size: 1.5em;
+}
+
+.orderbtn {
+    width: 85%;
+    height: 6rem;
+
+}
+
+#carousel1 .carousel-inner .carousel-item img {
+    height: 570px;
+    object-fit: cover;
+}
+
+
+
+#carousel1 ol {
+    top: -150px;
+}
+
+/* .carousel-indicators */
+
+
+#carousel1 .carousel-indicators li {
+    background-color: #ffffff;
+    opacity: 1;
+    width: 4px;
+    height: 32px;
+    border-radius: 1px;
+    margin-right: 60px;
+}
+
+#carousel1 .carousel-indicators li.active {
+    background-color: var(--color-red);
+    width: 64px;
+    height: 32px;
+    margin-right: 0px;
+}
+
+.textOutline {
+
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+.slideText {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 150px;
+    font-size: 4.5em;
+    line-height: 1.5em;
+    z-index: 5;
+}
+
+.rectangle {
+    z-index: 2;
+    position: absolute;
+    width: 18em;
+    height: 5em;
+    /* left: 344px; */
+    top: 275px;
+    background-color: var(--color-red);
+}
+
+#menu{
+    background-color: var(--color-menu);
+    width: 100%;
+    height: 1050px;
+}
+
+
+.titleMenu {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-red);
+    font-size: 2rem;
+}
+
+.separator {
+    background-color: var(--color-black);
+    width: 100%;
+    height: 2px;
+}
+
+.foodAndPrice {
+    color: var(--color-black);
+    font-size: 1.25rem;
+}
+
+
+#carousel2 .menu1,
+#carousel2 .menu2 {
+    position: static;
+    display: block;
+    height: 950px;
+}
+
+#carousel2 .carousel-indicators li {
+    background-color: var(--color-black);
+    opacity: 0.5;
+}
+
+#carousel2 .carousel-indicators li.active {
+    background-color: var(--color-red);
+    opacity: 1;
+}
+
+#carousel2 a.carousel-control-prev, #carousel2 a.carousel-control-next  {
+    width: 5%;
+}
+
+
+
+#carousel2 .carousel-control-prev, #carousel2 .carousel-control-  {
+    color: var(--color-red);
+}
+
+#carousel2 .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BA0113' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+#carousel2 .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BA0113' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#about{
+    height: 740px;
+}
+
+.menu-about{
+    background-color: var(--color-black);
+    width: 100%;
+    height: 540px;
+}
+
+.imgAbout{
+    width: 400px;
+    /* height: 100%; */
+}
+
+.line-undertitlte{
+    height: 4px;
+    width: 100%;
+    background-color: var(--color-red);
+    border-radius: 2px;
+}
+
+.aboutText{
+    background-color: var(--font-white);
+    height: 520px;
+    border-radius: 0 3px 3px 0;
+    font-size: 1.25rem;
+    box-shadow: 10px 10px var(--color-red);
+}
+
+.title-about {
+    color: var(--color-red);
+}
+
+
+.font-white{
+    color: var(--font-white);
+}
+
+#gallery{
+    height: 450px;
+    background-color: var(--color-black);
+    
+}
+
+.menu-gallery{
+    width: 100%;
+    height: 450px;
+}
+
+#carousel3 .carousel-inner .carousel-item img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.control-gallery span{
+    /* border: 1px solid var(--font-white); */
+    outline-style: solid;
+    outline-color: var(--font-white);
+    outline-width: thin;
+    outline-offset: 15px;
+}
+
+.control-gallery{
+    width: 75px;
+}
+
+#contact{
+    background-color:var(--color-red);
+    height: 500px;
+}
+
+.menu-contact{
+    color: var(--font-white);
+    font-size: 0.87rem;
+}
+
+.divider{
+    background-color: var(--font-white);
+    height: 2px;
+    opacity: 0.6;
+}
+
+
+.text-contact{
+    font-size: 1.25rem;
+}
+
+#contact a{
+    color: var(--font-white);
+    text-decoration: underline;
+}
+
+
+/* 
+https://getbootstrap.com/docs/4.4/utilities/text/#text-alignment
+
+https://cybmeta.com/em-y-rem
+
+https://getbootstrap.com/docs/4.0/content/typography/
+
+
+
+*/
+
+
+/* 
+NO OLVIDARSE DE LA TIPOGRAFIA Responsiva
+
+REM REM REM REM REM
+*/
